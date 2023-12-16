@@ -756,13 +756,13 @@
 		document.addEventListener('DOMContentLoaded', function () {
 			const x = localStorage.getItem("login")
 			if (!x) {
-				return window.location.href = "/pagesAdmin/login.html"
+				return window.location.href = "pagesAdmin/login.html"
 			}
 		});
 
 		function logout() {
 			localStorage.removeItem('login')
-			return window.location.href = "/pagesAdmin/login.html"
+			return window.location.href = "pagesAdmin/login.html"
 		}
 	</script>
 </body>
